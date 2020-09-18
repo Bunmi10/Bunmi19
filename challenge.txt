@@ -1,0 +1,23 @@
+#!/bin/bash0
+sudo addgroup thejacksons
+
+create a new user
+sudo adduser jeff
+
+create a file
+
+touch run.sh
+
+enter an echo command
+
+echo "Hello" > run.sh
+
+make file exceutable
+chmod g=x
+
+switch to you new user
+su - jeff
+
+run your file
+./run.sh
+
